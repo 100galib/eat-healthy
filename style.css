@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #575757;
+}
+section{
+    margin: 30px 0;
+}
+a{
+    text-decoration: none;
+}
+.wrap{
+    display: flex;
+}
+.half_section{
+    width: 40%;
+    margin: 0 5%;
+}
+.first_section_img img{
+    width: 80%;
+}
+.top_section{
+    margin-top: 20px;
+}
+.top_section h1{
+    font-size: 44px;
+    margin: 5px 0;
+}
+#sk{
+    color: #FC8B47;
+}
