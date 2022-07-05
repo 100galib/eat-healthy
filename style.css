@@ -8,13 +8,27 @@ section{
 }
 a{
     text-decoration: none;
+    box-shadow: 2px 2px 22px #f0b995;
+    background-image: linear-gradient(#FB934A, #FE4C2F);
+    padding: 15px 50px;
+    color: white;
+    border-radius: 25px;
 }
 .wrap{
     display: flex;
 }
+.mid_section{
+    background-image: url(image/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
 .half_section{
     width: 40%;
     margin: 0 5%;
+}
+.same{
+    margin-bottom: 40px;
 }
 .first_section_img img{
     width: 80%;
@@ -26,6 +40,56 @@ a{
     font-size: 44px;
     margin: 5px 0;
 }
-#sk{
+.sk{
     color: #FC8B47;
+}
+.top_recipies{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+.top_recipies h1{
+    font-size: 45px;
+}
+.my_class{
+    width: 40%;
+    box-shadow: grey 6px 7px 10px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.left{
+    margin-left: 4%;
+    margin-right: 1%;
+}
+.right{
+    margin-left: 1%;
+    margin-right: 4%;
+}
+.my_class img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 12px;
+    text-align: center;
+}
+.fo_tex{
+    margin: 100px 10%;
+    text-align: center;
+    box-shadow: grey 6px 7px 30px;
+    border-radius: 20px;
+}
+.fo_tex div{
+    padding: 0 10%;
+}
+footer{
+    background-color: #0B0D17;
+    height: 200px;
+    text-align: center;
+}
+footer h3{
+    font-size: 25px;
+    padding-top: 30px;
+}
+footer p{
+    color: white;
 }
